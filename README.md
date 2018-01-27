@@ -2,13 +2,13 @@
 A  c++ console application to reconstruct a clapping game in my middle school.  
 The names of moves are modified to facilitate understanding.
 
-Details of the game
+Details of the game  
 **Basics and terminology**
 1. Two players exert **moves** at the same time in every round.
 2. **Moves** include **attack** (small, middle and big), **save energy**, and **defense**(small, middle and big).  
 3. There is a key parameter called **energy** which is the basis for certain moves. 
 
-**Release of energy**  
+**Release of energy**    
 4. During an **attack**, certain amount of **energy** is released. 1 energy for small attack, 2 energy for middle attack and 5 energy for large attack.  
 5. No energy is released during a small defense or middle defense.   
 6. During a big defense, 3 energy is released.   
@@ -17,10 +17,10 @@ Details of the game
 **Acquisition of energy & How to win**  
 8. After **save energy**, 1 energy is added.   
 9. When a player attacks, there are three ways that the other can survive:  
-  a. Make an attack with higher level (e.g. middle attack--small attack).   
-  b. Make the same attack (e.g. small attack--small attack).   
-  c. Apply corresponding defense (e.g. small attack--small defense).   
-  Otherwise the player who attack wins and the attacked player dies.  
+  a. Make an attack with **higher level** (e.g. middle attack--small attack).   
+  b. Make the **same attack** (e.g. small attack--small attack).   
+  c. Apply **corresponding defense** (e.g. small attack--small defense).   
+  Otherwise the player who attack wins and the attacked player loses.  
 10. When the case in 9 a. occurs, the player exerting an attack with higher level wins.  
 11. When the case in 9 b. occurs, the player who defense absorbs energy released by player who attacks (**unilateral absorption**).  
 12. When the case in 9 c. occurs, both player absorb energy released by the other (**Mutual absorption**).    
