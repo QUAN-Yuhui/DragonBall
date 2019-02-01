@@ -1,8 +1,15 @@
 # DragonBall
-A  c++ console application to reconstruct a clapping game in my middle school.  
-The names of moves are modified to facilitate understanding.
-
-Details of the game
+A  c++ console application to reconstruct a clapping game in my middle school. The names of moves are modified to facilitate understanding.
+## How to install 
+1. Clone the repo.
+2. Under Linux, you can simply install it by 
+```
+$ cd DragonBall
+$ make
+``` 
+Then run the game by 
+```$ ./DragonBall``` 
+## Details of the game  
 **Basics and terminology**
 1. Two players exert **moves** at the same time in every round.
 2. **Moves** include **attack** (small, middle and big), **save energy**, and **defense**(small, middle and big).  
