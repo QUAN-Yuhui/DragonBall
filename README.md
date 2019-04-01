@@ -1,3 +1,4 @@
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 # DragonBall
 A  c++ console application to reconstruct a clapping game in my middle school. The names of moves are modified to facilitate understanding.
 ## How to install 
